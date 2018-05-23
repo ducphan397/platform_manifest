@@ -521,5 +521,5 @@
   <!-- Cosmic-OS Additions -->
   <include name="manifests/cosmic-os.xml" />
   <include name="manifests/lineage.xml" />
-  <include name="manifests/gp.xml" />
+  <include name="gp.xml" />
 </manifest>
