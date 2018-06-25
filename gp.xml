@@ -14,7 +14,7 @@
            fetch="https://github.com/Samsung-MSM8916" />
   
   <!-- Device Trees -->
-  <project path="device/samsung/fortunaxx-common" name="android_device_samsung_fortunaxx-common" remote="GPO" revision=cos-n" />
+  <project path="device/samsung/fortunaxx-common" name="android_device_samsung_fortunaxx-common" remote="GPO" revision="cos-n" />
   <project path="device/samsung/fortunave3g" name="android_device_samsung_fortunave3g" remote="GPO" revision="cos-n" />
 
 
