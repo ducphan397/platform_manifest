@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="GPO"
+           fetch="https://github.com/ducphan397" />
+  
+  <remote name="LinOS"
+           fetch="https://github.com/LineageOS" />
+  
+  <remote name="OMNI"
+           fetch="https://github.com/omnirom" />
+  
+  <remote name="MSM8916"
+           fetch="https://github.com/Samsung-MSM8916" />
+  
+  <!-- Device Trees -->
+  <project path="device/samsung/fortunaxx-common" name="android_device_samsung_fortunaxx-common" remote="GPO" revision=cos-n" />
+  <project path="device/samsung/fortunave3g" name="android_device_samsung_fortunave3g" remote="GPO" revision="cos-n" />
+  <project path="device/samsung/fortuna3g" name="android_device_samsung_fortuna3g" remote="GPO" revision="cos-n" />
+
+  <!-- Vendors -->
+  <project path="vendor/samsung/fortunaxx-common" name="android_vendor_samsung_fortunaxx-common" remote="MSM8916" revision="cm-14.1" />
+  <project path="vendor/samsung/fortunave3g" name="android_vendor_samsung_fortunave3g" remote="MSM8916" revision="cm-14.1" />
+  <project path="vendor/samsung/fortuna3g" name="android_vendor_samsung_fortuna3g" remote="MSM8916" revision="cm-14.1" />
+  
+  <!-- Kernel -->
+  <project path="kernel/samsung/fortunaxx" name="android_kernel_samsung_msm8916" remote="MSM8916" revision="cm-14.1" />
+  
+  <!-- Extras -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="LinOS" revision="cm-14.1" />
+  <project path="device/samsung/qcom-common" name="android_device_samsung_qcom-common" remote="LinOS" revision="cm-14.1" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="LinOS" revision="cm-14.1" />
+  <project path="external/stlport" name="android_external_stlport" remote="LinOS" revision="cm-14.1" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="LinOS" revision="cm-14.1" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="LinOS" revision="cm-14.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="LinOS" revision="cm-14.1" />
+  
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="OMNI" revision="android-7.1"/>
+  </manifest>
