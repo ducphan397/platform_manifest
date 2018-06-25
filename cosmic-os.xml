@@ -94,7 +94,7 @@
   <!-- REMOVE PROJECTS -->
 
   <!-- BEGIN COSMIC-OS -->
-
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="laos" revision="cm-14.1" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="cosmic-os" />
   <project name="platform_art" path="art" remote="cosmic-os" />
   <project name="platform_bionic" path="bionic" remote="cosmic-os" />
