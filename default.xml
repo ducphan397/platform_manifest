@@ -549,4 +549,7 @@
   <!-- LAOS additions -->
   <include name="hals.xml"/>
 
+  <!-- GP additions -->
+  <include name="gp.xml"/>
+
 </manifest>
