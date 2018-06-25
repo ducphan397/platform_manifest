@@ -15,7 +15,7 @@
   <remove-project name="device/generic/qemu" />
   <remove-project name="device/generic/x86" />
   <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/qcom/common" />
+
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/sample" />
   <remove-project name="kernel/lk" />
